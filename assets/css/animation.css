@@ -1,0 +1,32 @@
+.coba{
+    animation-name: muncul;
+    animation-duration: 2s;
+}
+
+@keyframes muncul{
+    from{
+        opacity: 0%;
+        scale: 0 , .025;
+    }
+    to{
+        opacity: 100%;
+        scale: 1 , .025;
+    }
+}
+
+.coba1{
+    animation-name: muncul1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes muncul1{
+    from{
+        opacity: 0%;
+        scale: 0 , .025;
+    }
+    to{
+        opacity: 100%;
+        scale: 1 , .025;
+    }
+}
